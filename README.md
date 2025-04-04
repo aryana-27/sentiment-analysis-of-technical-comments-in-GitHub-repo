@@ -24,7 +24,7 @@ This project performs sentiment analysis on developer comments in GitHub reposit
 
 ## Dataset
 - **Dataset 1:** `github_comments_filtered.csv` (Used for SVM model)
-- **Dataset 2:** `git_final_vadar.csv` (Used for BERT model)
+- **Dataset 2:** `git_final_vadar.csv` (applied vadar for predicting sentiment labels and against that used for BERT model for fine tuning and prediction.)
 
 Ensure the datasets contain the required columns:
 - `Comment` (Raw text)
